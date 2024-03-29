@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int i=1,sum=0,n;
+	printf("Enter the Number:\n");
+	scanf("%d",&n);
+	
+	do
+	{
+		sum=sum+i;
+		i++;
+		
+	}
+	while(i<=n);
+	printf("The Summation: %d\n",sum);
+}
